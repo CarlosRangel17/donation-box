@@ -5,6 +5,7 @@ import { useState } from "react";
 /** NOTE: Useful documentation
  * How to send to payable function ~ https://ethereum.stackexchange.com/questions/45398/call-a-payable-function-and-pay-ether-with-metamask
  * How to format ethers ~ https://ethereum.stackexchange.com/questions/101356/how-to-convert-bignumber-to-normal-number-using-ethers-js/101357
+ * Info on Görli Testnet ~ https://goerli.net/
  */
 
 /** TODO: Make an environment variable
