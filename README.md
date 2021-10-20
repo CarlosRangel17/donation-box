@@ -45,6 +45,7 @@ Starts the node server from the build output
 
 - public: static assets
 - src: The app
+  - artifacts: Smart Contract ABI's
   - components: React components
   - layout: Core UI layout that each page uses (Header, Meta)
   - pages: Each file/folder adds a new page to the app
