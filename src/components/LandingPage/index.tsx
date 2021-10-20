@@ -46,7 +46,7 @@ const LandingPage = () => {
               Connect Wallet
             </button>
             <span>OR</span>
-            <button className={styles.signUp} onClick={signUp}>
+            <button className={styles.signUpButton} onClick={signUp}>
               Sign Up
             </button>
           </div>
