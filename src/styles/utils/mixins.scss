@@ -1,0 +1,58 @@
+@use "~styles/utils/variables" as *;
+
+// Screen Breakpoints -> Mobile First
+@mixin small-mobile {
+  @media screen and (min-width: $small-mobile) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media screen and (min-width: $mobile) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media screen and (min-width: $tablet) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media screen and (min-width: $desktop) {
+    @content;
+  }
+}
+
+@mixin lg-desktop {
+  @media screen and (min-width: $large-desktop) {
+    @content;
+  }
+}
+
+// Custom min/max width media query
+@mixin minMax($min, $max) {
+  @media screen and (min-width: $min) and (max-width: $max) {
+    @content;
+  }
+}
+
+@mixin min($min) {
+  @media screen and (min-width: $min) {
+    @content;
+  }
+}
+
+@mixin max($max) {
+  @media screen and (max-width: $max) {
+    @content;
+  }
+}
+
+// Create Styles for Specific CSS Elements
+@mixin module-styles($element, $selector, $pseudo: "", $specificity: "") {
+  #{$specificity} #{$element}[#{$selector}]#{$pseudo} {
+    @content;
+  }
+}

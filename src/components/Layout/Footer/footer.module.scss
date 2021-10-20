@@ -1,0 +1,30 @@
+@use "global" as *;
+
+.footer {
+  margin-top: 260px;
+  width: 100%;
+  background: #f8f8f8;
+  font-size: 13px;
+  line-height: 16px;
+  padding: 11px 36px 8px 37px;
+
+  span {
+    display: block;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  @include min(767px) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 35px 0px 70px;
+    height: 35px;
+
+    span {
+      display: initial;
+      text-align: initial;
+      padding-bottom: initial;
+    }
+  }
+}

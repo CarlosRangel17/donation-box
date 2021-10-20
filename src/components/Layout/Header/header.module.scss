@@ -1,0 +1,30 @@
+@use "global" as *;
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: flex-start;
+  align-items: flex-start;
+  height: 42px;
+
+  a {
+    height: 42px;
+    width: 169px;
+    padding: 15px;
+    background: $black;
+    border-radius: 0px 0px 8px 8px;
+    color: $white;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  @include min($mobile) {
+    justify-content: unset;
+    padding: 0 120px;
+  }
+
+  @include minMax($mobile, $tablet) {
+    padding: 0 30px;
+  }
+}

@@ -1,0 +1,85 @@
+@use "global" as *;
+
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 64px;
+  padding: 0 30px;
+}
+
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+}
+
+.header {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.description {
+  text-align: center;
+  color: gray;
+  margin-top: 16px;
+}
+
+.donationSection,
+.notConnectedSection {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+
+  label {
+    margin-top: 30px;
+    margin-bottom: 5px;
+    font-weight: 500;
+  }
+
+  input {
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 15px;
+    padding: 15px;
+  }
+
+  span {
+    margin-top: 10px;
+    margin-bottom: -5px;
+    font-size: 14px;
+  }
+}
+
+.signUp,
+.connectWalletButton,
+.donateButton {
+  cursor: pointer;
+  margin-top: 16px;
+  padding: 8px;
+  border: 0;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.congrats {
+  text-align: center;
+  color: blueviolet;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.thankYouSection {
+  margin-top: 15px;
+
+  div {
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+}
