@@ -36,11 +36,10 @@ const useDonationBox = () => {
           value: ethers.utils.parseEther(`${donationAmount}`),
         });
         setLoading(true);
-        console.log("Mining...", donationTrx.hash);
 
         await donationTrx.wait();
         setLoading(false);
-        console.log("Mined -- ", donationTrx.hash);
+        console.log("Trx hash -- ", donationTrx.hash);
 
         // Retrieve all donations
         void (await getAllDonations());

@@ -71,7 +71,7 @@ const LandingPage = () => {
           >
             Donate
           </button>
-          {loading && <p> Please wait while the transaction is mined...</p>}
+          {loading && <p> Please wait while the transaction completes...</p>}
         </form>
 
         {/* TODO: Add more detail (sender address, amount, balance, total) & styles */}
