@@ -1,12 +1,21 @@
-# Boiler Plate
-
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+ TABLE OF CONTENT
+---------------------------------------------------------------------------------------------------------------------
+- Get Started
+- Available Scripts
+- Deploy
+- Folder Architecture
+- Notes
+----------------------------------------------------------------------------------------------------------------
 
 ## Get Started
 
 1. Install NodeJS. Use a node version manager such as nvm. Currently this repo targets Node 12
 2. Install yarn.
 3. Run `yarn` to install dependencies
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/11052295/138176233-5d8d41c3-8c21-4097-bba4-ff57001852cc.png" width="500">
+</p>
 
 ## Available Scripts
 
@@ -39,7 +48,7 @@ Starts the node server from the build output
 
 - Any pushed branch with /features/\*\* will be deployed to the DEV environment
 - Any push to master will be deployed to the UAT environment
-- Any pushed branch with /releases/\*\* will be deployed to Production. You'll need approval from the admin (PM) for the pipeline to build
+- Any pushed branch with /releases/\*\* will be deployed to Production. 
 
 ## Folder Architecture
 
@@ -58,6 +67,8 @@ Starts the node server from the build output
   - types: all interfaces and types use throughout multiple components are kept here
 
 ## Notes
+
+- This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 - This project demonstrates a basic Hardhat use case for a Donation Box.
 
