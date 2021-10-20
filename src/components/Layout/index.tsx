@@ -5,8 +5,8 @@ import Header from "./Header";
 import Footer from "./Footer";
 import WindowDimensionsProvider from "~contexts/window-dimensions";
 
-const defaultTitle = "Get Started | Boiler Plate";
-const defaultDescription = "Boiler Plate Starter";
+const defaultTitle = "Donation Box";
+const defaultDescription = "Donation Box to donate funds to the Görli Network";
 const defaultOGURL = "";
 const defaultOGImage = "";
 
@@ -31,21 +31,21 @@ const Layout: React.FunctionComponent<Props> = ({
       <meta content="width=device-width, initial-scale=1" name="viewport" />
       <meta content={description || defaultDescription} name="description" />
       <link
-        href="/favicon-16x16.png"
+        href="/ethereum-favicon.png"
         rel="icon"
         sizes="16x16"
         type="image/png"
       />
       <link
-        href="/favicon-32x32.png"
+        href="/ethereum-favicon.png"
         rel="icon"
         sizes="32x32"
         type="image/png"
       />
-      <link href="/favicon.ico" rel="shortcut icon" />
+      <link href="/ethereum-favicon.ico" rel="shortcut icon" />
       <link
-        href="/apple-touch-icon.png"
-        rel="apple-touch-icon"
+        href="/ethereum-favicon.png"
+        rel="ethereum-favicon"
         sizes="180x180"
       />
       <link color="#000000" href="/favicon-mask.svg" rel="mask-icon" />
