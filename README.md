@@ -76,7 +76,7 @@ Starts the node server from the build output
 
 - This project demonstrates a basic Hardhat use case for a Donation Box.
 
-- To add a new route, add a file or folder to `/src/pages/`. [https://nextjs.org/docs/basic-features/pages](More information on dynamice routing here)
+- To add a new route, add a file or folder to `/src/pages/`. [More information on dynamice routing here](https://nextjs.org/docs/basic-features/pages)
 
 - Try to use CSS modules for styling. Add a file like this component.module.scss next to the component where you'll use the styles.
 
